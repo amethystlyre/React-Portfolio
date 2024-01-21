@@ -18,7 +18,7 @@ The footer at the bottom of the page also has the developer's social media accou
     
 ## Installation
     
-Open url link  in a browser such as Google Chrome, Firefox or Edge etc.
+Open url link https://65ad265d5fea0467e280776a--amethyst-lyre.netlify.app/ in a browser such as Google Chrome, Firefox or Edge etc.
 
 ## Usage
 

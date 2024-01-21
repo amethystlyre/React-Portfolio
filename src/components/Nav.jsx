@@ -1,3 +1,5 @@
+//Nav tab (checks for active link)
+
 export default function NavTabs({ currentPage, handlePageChange }) {
   return (
     <nav>

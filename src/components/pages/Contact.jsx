@@ -8,49 +8,52 @@ export default function Contact() {
     message: "",
   });
 
-
+  //contact form props
   const inputs = [
     {
       id: 1,
       name: "name",
-      element:"input",
+      element: "input",
       type: "text",
       label: "Name:",
       placeholder: "Your name",
       pattern: "^[A-Za-z0-9]+",
-      errorMessage:"Name is required.",
-      required:true,
+      errorMessage: "Name is required.",
+      required: true,
     },
     {
       id: 2,
       name: "email",
-      element:"input",
+      element: "input",
       type: "email",
       label: "Email:",
       placeholder: "Your email address",
-      pattern: "^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,4})+$",
-      errorMessage:"Email address is invalid.",
-      required:true,
+      pattern: "^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$",
+      errorMessage: "Email address is invalid.",
+      required: true,
     },
-    { id: 3, 
-      name: "message", 
-      element:"textarea",
+    {
+      id: 3,
+      name: "message",
+      element: "textarea",
       type: "text",
       label: "Message:",
       placeholder: "Leave a message for me!",
-      rows:"10",
+      rows: "10",
       pattern: "[A-Za-z0-9]+",
-      errorMessage:"Message is required.",
-      required:true,
-     },
+      errorMessage: "Message is required.",
+      required: true,
+    },
   ];
 
+  //handle input field changes
   const handleChange = (e) => {
     const { name, value } = e.target;
     console.log(name, value);
-    setFormData({...formData,[e.target.name]: e.target.value});
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  //handle form submit
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -69,10 +72,16 @@ export default function Contact() {
       <h1>Amethyst</h1>
       <div>
         <h2>Contact</h2>
+        {/* generate form input fields based on input list data fields*/}
         <form onSubmit={handleSubmit}>
-          {inputs.map(input=> (
-            <FormInput key={input.id} {...input} value={formData[input.name]} onChange={handleChange}/>
-          ))}   
+          {inputs.map((input) => (
+            <FormInput
+              key={input.id}
+              {...input}
+              value={formData[input.name]}
+              onChange={handleChange}
+            />
+          ))}
           <button className="form btn" type="submit">
             Submit
           </button>

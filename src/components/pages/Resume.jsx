@@ -1,8 +1,11 @@
+// Renders Resume page
+
 export default function Resume() {
   return (
     <div>
       <h1>Amethyst</h1>
       <h2>Resume</h2>
+      {/* Fake resume sample link */}
       <a href="https://www.dayjob.com/downloads/CV_examples/Junior_software_developer.pdf">Download my resume</a>
       <h2>Front-end proficiences:</h2>
       <ul>

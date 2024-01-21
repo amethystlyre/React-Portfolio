@@ -10,7 +10,6 @@ export default function PortfolioContainer() {
   //Start with About tab by default
   const [currentPage, setCurrentPage] = useState('About');
 
-  // TODO: Add a comment describing the functionality of this method
   // Render individual tab content based on the currentPage variable
   const renderPage = () => {
     switch (currentPage) {
@@ -33,7 +32,7 @@ export default function PortfolioContainer() {
 
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
 
-      <main className="">{renderPage()}</main>
+      <main>{renderPage()}</main>
       <Footer />
     </div>
   );

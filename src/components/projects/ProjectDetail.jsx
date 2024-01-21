@@ -1,3 +1,5 @@
+//Project Details
+
 export default function ProjectDetail(props) {
     const { name, deployedUrl, githubLink, imgSrc, techType } = props;
     //console.log(props)
