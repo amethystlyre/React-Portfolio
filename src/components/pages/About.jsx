@@ -5,8 +5,7 @@ export default function About() {
       <img src="src/assets/avatar.gif"/>
       <h3>About Me</h3>
       <div><p>
-       Full stack bootcamp student learning React and MERN technologies.
-       Interested in web and mobile app development.
+       Full stack web development student learning React and MERN technologies.
        </p></div>
 
     </div>

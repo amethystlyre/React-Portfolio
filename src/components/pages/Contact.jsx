@@ -8,34 +8,40 @@ export default function Contact() {
     message: "",
   });
 
-  const [focused, setFocused] = useState(false);
 
   const inputs = [
     {
       id: 1,
       name: "name",
+      element:"input",
       type: "text",
       label: "Name:",
       placeholder: "Your name",
       pattern: "^[A-Za-z0-9]+",
-      errorMessage:"",
+      errorMessage:"Name is required.",
+      required:true,
     },
     {
       id: 2,
       name: "email",
-      type: "text",
+      element:"input",
+      type: "email",
       label: "Email:",
       placeholder: "Your email address",
       pattern: "^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,4})+$",
-      errorMessage:"",
+      errorMessage:"Email address is invalid.",
+      required:true,
     },
     { id: 3, 
       name: "message", 
+      element:"textarea",
       type: "text",
       label: "Message:",
       placeholder: "Leave a message for me!",
       rows:"10",
-      errorMessage:"",
+      pattern: "[A-Za-z0-9]+",
+      errorMessage:"Message is required.",
+      required:true,
      },
   ];
 
@@ -56,11 +62,6 @@ export default function Contact() {
       email: "",
       message: "",
     });
-    // setAlert('');
-  };
-
-  const handleFocus = () => {
-    setFocused(true);
   };
 
   return (
