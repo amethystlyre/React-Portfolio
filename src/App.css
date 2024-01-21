@@ -29,7 +29,22 @@ nav ul {
 }
 
 nav ul li {
-  margin-left: 25px;
+  margin-left: 0;
+}
+
+.nav-item .nav-link{
+  border-bottom: 2px solid var(--bordercolor);
+  padding: 10px;
+}
+
+
+.nav-item .nav-link.active{
+  border-top: 2px solid var(--bordercolor);
+  border-left: 2px solid var(--bordercolor);
+  border-right: 2px solid var(--bordercolor);
+  border-bottom: none;
+  padding: 10px;
+  color:var(--textcolorlight); ;
 }
 
 

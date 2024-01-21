@@ -13,7 +13,7 @@
   --themecolor: #2b20f4;
   --linkcolor: #c53eff;
   --linkhlcolor: #2b20f4;
-  --bordercolor: #c53eff;
+  --bordercolor: #7b27a0;
   --errorcolor: #ec3d4e;
 
   font-synthesis: none;
@@ -84,6 +84,19 @@ button:focus-visible {
       justify-content: left;
       margin: 10px;
       padding-left:0px;
+    }
+    .nav-item{
+      margin:10px;
+    }
+
+    .nav-item .nav-link{
+      border-bottom: none;
+    }
+
+    .nav-item .nav-link.active{
+      border: 2px solid var(--bordercolor);
+      padding: 10px;
+      color:var(--textcolorlight); ;
     }
 
 
