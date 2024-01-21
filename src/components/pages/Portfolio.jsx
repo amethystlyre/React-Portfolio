@@ -45,11 +45,11 @@ export default function Portfolio() {
     },
     {
       id: 6,
-      name: "Social-Network-API",
-      deployedUrl: "#",
-      githubLink: "https://github.com/amethystlyre/Social-Network-API-NoSQL",
-      techType: "Express/Mongoose/MongoDB",
-      imgSrc: "/social-network.jpg",
+      name: "Work Day Scheduler",
+      deployedUrl: "https://amethystlyre.github.io/Work-Day-Scheduler/",
+      githubLink: "https://github.com/amethystlyre/Work-Day-Scheduler",
+      techType: "JavaScript",
+      imgSrc: "/work-day-scheduler.jpeg",
     },
   ];
   return (
