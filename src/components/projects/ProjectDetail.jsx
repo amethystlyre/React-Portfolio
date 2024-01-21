@@ -1,6 +1,6 @@
 export default function ProjectDetail(props) {
     const { name, deployedUrl, githubLink, imgSrc, techType } = props;
-    console.log(props)
+    //console.log(props)
     return (
         <div className="project">
           <img src= {`${imgSrc}`}/>
