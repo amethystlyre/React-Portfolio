@@ -114,7 +114,7 @@ nav ul li {
 
 .project-link {
   display: block;
-  background-image: url("src/assets/github-mark.svg");
+  background-image: url("/github-mark.svg");
   height: 20px;
   width: 20px;
   padding: 10px;
@@ -212,13 +212,13 @@ footer a{
 }
 
 footer a.github {
-  background-image: url("src/assets/github-logo-white.png");
+  background-image: url("/github-logo-white.png");
 }
 
 footer a.linkedin {
-  background-image: url("src/assets/linkedin-logo-white.png");
+  background-image: url("/linkedin-logo-white.png");
 }
 
 footer a.twitter {
-  background-image: url("src/assets/twitter-logo-white.png");
+  background-image: url("/twitter-logo-white.png");
 }

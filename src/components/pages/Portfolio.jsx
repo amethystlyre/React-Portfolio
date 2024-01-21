@@ -8,7 +8,7 @@ export default function Portfolio() {
       deployedUrl:"https://amethystlyre.github.io/Weather-dashboard/",
       githubLink: "https://github.com/amethystlyre/Weather-dashboard",
       techType:"Javascript/API",
-      imgSrc:"src/assets/weather.png"
+      imgSrc:"/weather.png"
     },
     {
       id:2,
@@ -16,7 +16,7 @@ export default function Portfolio() {
       deployedUrl:"https://tech-blog-site-2023-38e4d227d305.herokuapp.com/",
       githubLink: "https://github.com/amethystlyre/Tech-Blog",
       techType:"Express/Sequelize/HandleBars",
-      imgSrc:"src/assets/tech-blog.png"
+      imgSrc:"/tech-blog.png"
     },
     {
       id:3,
@@ -24,7 +24,7 @@ export default function Portfolio() {
       deployedUrl:"https://jate-pwa-13012024-9d9b4c1d61ce.herokuapp.com/",
       githubLink: "https://github.com/amethystlyre/Text-Editor-PWA",
       techType:"Progressive Web app",
-      imgSrc:"src/assets/text-editor.jpg"
+      imgSrc:"/text-editor.jpg"
     },
     {
       id:4,
@@ -32,7 +32,7 @@ export default function Portfolio() {
       deployedUrl:"https://travel-packing-app-0c97b9ac0fdb.herokuapp.com/",
       githubLink: "https://github.com/amethystlyre/Travel-packing-app",
       techType:"Express/Sequelize/Node JS",
-      imgSrc:"src/assets/travel.jpg"
+      imgSrc:"/travel.jpg"
     },
     {
       id:5,
@@ -40,7 +40,7 @@ export default function Portfolio() {
       deployedUrl:"https://amethystlyre.github.io/Currency-Exchange-project/",
       githubLink: "https://github.com/amethystlyre/Currency-Exchange-project",
       techType:"JS/HTML/Bulma",
-      imgSrc:"src/assets/currency.jpg"
+      imgSrc:"/currency.jpg"
     },
     {
       id:6,
@@ -48,7 +48,7 @@ export default function Portfolio() {
       deployedUrl:"#",
       githubLink: "https://github.com/amethystlyre/Social-Network-API-NoSQL",
       techType:"Express/Mongoose/MongoDB",
-      imgSrc:"src/assets/social-network.jpg"
+      imgSrc:"/social-network.jpg"
     }
   ]
   return (

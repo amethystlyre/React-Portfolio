@@ -37,7 +37,7 @@ body {
   padding:0;
   min-width: 320px;
   background-color: var(--background-color);
-  background-image: url("src/assets/background.jpg");
+  background-image: url("/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -99,8 +99,6 @@ button:focus-visible {
       color:var(--textcolorlight); ;
     }
 
-
-  /*Change position of section title to top center*/
   .project{
       width: 100%;
   }
