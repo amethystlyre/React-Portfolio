@@ -7,7 +7,7 @@ import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
 export default function PortfolioContainer() {
-  //Start with Home tab by default
+  //Start with About tab by default
   const [currentPage, setCurrentPage] = useState('About');
 
   // TODO: Add a comment describing the functionality of this method

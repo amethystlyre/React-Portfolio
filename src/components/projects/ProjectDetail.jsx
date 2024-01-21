@@ -1,5 +1,5 @@
 export default function ProjectDetail(props) {
-    const { id, name, deployedUrl, githubLink, imgSrc, techType } = props;
+    const { name, deployedUrl, githubLink, imgSrc, techType } = props;
     console.log(props)
     return (
         <div className="project">
@@ -10,7 +10,7 @@ export default function ProjectDetail(props) {
                 href={`${deployedUrl}`}
                 target="_blank"
                 rel="noreferrer"
-              >Weather Dashboard</a>
+              >{`${name}`}</a>
               <a
                 className="project-link"
                 href={`${githubLink}`}

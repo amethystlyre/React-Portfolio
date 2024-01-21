@@ -32,6 +32,7 @@ nav ul li {
   margin-left: 25px;
 }
 
+
 .project-list {
   margin: 5px;
   /* border: 1px solid; */
@@ -59,7 +60,7 @@ nav ul li {
   max-width: 100%;
   height: auto;
   transition: .5s ease;
-  backface-visibility: hidden;
+  
 }
 
 .project:hover img {
@@ -141,12 +142,11 @@ form div{
 
 .form-input{
   padding: 10px;
-  background-color: #575757;
+  background-color: var(--background-colorlight);
   font-family: Helvetica, Arial, sans-serif;
   border-color:var(--bordercolor) ;
+  color:var(--textcolorlight);
 }
-
-
 
 .form.btn{
   width:50%;

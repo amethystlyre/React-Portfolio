@@ -6,6 +6,7 @@
   color: rgba(255, 255, 255, 0.87);
   --white:rgb(255, 255, 255);
   --background-color: #121212;
+  --background-colorlight: #421249;
   --textcolorlight: rgb(255, 255, 255);
   --textcolordark: #00008b;
   --primarybgcolor: #000000;
@@ -13,7 +14,7 @@
   --linkcolor: #c53eff;
   --linkhlcolor: #2b20f4;
   --bordercolor: #c53eff;
-  --errorcolor: rgb(197, 77, 131);
+  --errorcolor: #ec3d4e;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -36,6 +37,10 @@ body {
   padding:0;
   min-width: 320px;
   background-color: var(--background-color);
+  background-image: url("src/assets/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 h1 {
@@ -53,6 +58,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
+  color:var(--textcolorlight);
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
@@ -63,4 +69,44 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+
+/*Change header and contacts lists to display vertically when screen width is less than 768px wide*/
+@media screen and (max-width: 768px) {
+  nav{
+    float: right;
+  }
+  nav ul {
+      display: block;
+      flex-direction: column;
+      justify-content: left;
+      margin: 10px;
+      padding-left:0px;
+    }
+
+
+  /*Change position of section title to top center*/
+  .project{
+      width: 100%;
+  }
+
+  .project-name {
+    font-size: 4vw;
+  }
+  .project-type {
+    font-size: 2.4vw;
+  }
+
+  form{
+    width:100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav{
+    float: left;
+  }
+
 }
