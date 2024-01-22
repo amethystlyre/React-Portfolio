@@ -1,7 +1,7 @@
 import ProjectDetail from "../projects/ProjectDetail";
 
 export default function Portfolio() {
-  //6 project data
+  //Project data
   const projectList = [
     {
       id: 1,
@@ -53,7 +53,7 @@ export default function Portfolio() {
     },
   ];
   return (
-    <div>
+    <div className="main">
       <h1>Amethyst</h1>
       <h2>Portfolio</h2>
       <div className="project-list">

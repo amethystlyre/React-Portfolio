@@ -2,7 +2,7 @@
 
 export default function Resume() {
   return (
-    <div>
+    <div className="main">
       <h1>Amethyst</h1>
       <h2>Resume</h2>
       {/* Fake resume sample link */}

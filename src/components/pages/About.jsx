@@ -1,7 +1,7 @@
 //default landing page "About"
 export default function About() {
   return (
-    <div>
+    <div className="main">
       <h1>Amethyst</h1>
       <img src="./avatar.gif" />
       <h3>About Me</h3>
