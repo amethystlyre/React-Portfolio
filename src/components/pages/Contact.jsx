@@ -68,7 +68,7 @@ export default function Contact() {
   };
 
   return (
-    <div>
+    <div className="main">
       <h1>Amethyst</h1>
       <div>
         <h2>Contact</h2>
